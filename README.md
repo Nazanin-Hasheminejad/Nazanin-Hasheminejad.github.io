@@ -1,4 +1,4 @@
-
+<html>
 <head>
     <style>
         .center {
@@ -18,6 +18,8 @@
         <img src="profile.jpg" alt="Centered Image">
     </div>
 </body>
+
+</html>
 
 
 
