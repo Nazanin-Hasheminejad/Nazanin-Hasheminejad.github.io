@@ -90,6 +90,31 @@ nav ul li a:hover {
     grid-area: image;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #b3cde0; /* Baby blue background color */
+    padding: 20px;
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.image-section img {
+    width: 200px; /* Set this to the desired size */
+    height: 200px; /* Make sure the image is square */
+    object-fit: cover;
+    border: 5px solid #000; /* Black border for the frame */
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.image-section p {
+    margin-top: 10px;
+    align-self: center; /* Center the text under the image */
+}
+
+
+<!-- ************ comments ********** -->
+<!--.image-section {
+    grid-area: image;
+    display: flex;
+    flex-direction: column;
     align-items: flex-end;
 }
 
@@ -103,3 +128,4 @@ nav ul li a:hover {
     margin-top: 10px;
     align-self: flex-start;
 }
+-->
