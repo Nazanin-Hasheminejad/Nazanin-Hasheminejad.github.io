@@ -51,7 +51,7 @@ nav ul li a:hover {
 .sidebar {
     grid-area: sidebar;
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 10px;
     border-right: 1px solid #ccc;
 }
 
